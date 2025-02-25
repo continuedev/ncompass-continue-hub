@@ -1,6 +1,6 @@
 ---
 name: qwen2.5-coder 7b
-version: 1.0.0
+version: 0.0.1
 schema: v1
 models:
 - name: qwen2.5-coder 7b
