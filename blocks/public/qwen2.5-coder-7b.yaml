@@ -1,0 +1,13 @@
+---
+name: qwen2.5-coder 7b
+version: 1.0.0
+schema: v1
+models:
+- name: qwen2.5-coder 7b
+  provider: ncompass
+  model: qwen2.5-coder:7b
+  roles:
+    - chat
+    - edit
+    - apply
+    - autocomplete
