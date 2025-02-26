@@ -1,0 +1,10 @@
+---
+name: nomic-embed-text-v1-5
+version: 0.0.1
+schema: v1
+models:
+- name: nomic-embed-text-v1-5
+  provider: ncompass
+  model: nomic-embed-text-v1-5
+  roles:
+    - embed
