@@ -6,6 +6,7 @@ models:
 - name: qwen2.5-coder 7b
   provider: ncompass
   model: qwen2.5-coder:7b
+  apiKey: ${{ inputs.NCOMPASS_API_KEY  }}
   roles:
     - chat
     - edit

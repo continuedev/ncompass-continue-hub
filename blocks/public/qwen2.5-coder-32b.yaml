@@ -6,7 +6,9 @@ models:
 - name: qwen2.5-coder 32b
   provider: ncompass
   model: qwen2.5-coder:32b
+  apiKey: ${{ inputs.NCOMPASS_API_KEY  }}
   roles:
     - chat
     - edit
     - apply
+    - autocomplete

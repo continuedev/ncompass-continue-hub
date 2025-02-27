@@ -6,5 +6,6 @@ models:
 - name: nomic-embed-text-v1-5
   provider: ncompass
   model: nomic-embed-text-v1-5
+  apiKey: ${{ inputs.NCOMPASS_API_KEY  }}
   roles:
     - embed
