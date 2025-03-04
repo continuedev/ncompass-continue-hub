@@ -1,11 +1,11 @@
 ---
-name: qwen2.5-coder 7b
-version: 1.0.1
+name: Qwen 2.5 Coder 7b
+version: 1.0.2
 schema: v1
 models:
-- name: qwen2.5-coder 7b
+- name: Qwen 2.5 Coder 7b
   provider: ncompass
-  model: qwen2.5-coder:7b
+  model: qwen2.5-coder-7b
   apiKey: ${{ inputs.NCOMPASS_API_KEY  }}
   roles:
     - chat
