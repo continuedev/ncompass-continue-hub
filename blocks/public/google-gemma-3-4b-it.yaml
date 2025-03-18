@@ -1,0 +1,13 @@
+name: Gemma 3 - 4B
+version: 1.0.4
+schema: v1
+models:
+  - name: Gemma 3 - 4B
+    provider: ncompass
+    model: google/gemma-3-4b-it
+    apiKey: ${{ inputs.NCOMPASS_API_KEY  }}
+    roles:
+      - chat
+      - edit
+      - apply
+      - autocomplete
