@@ -10,10 +10,10 @@ models:
       NCOMPASS_API_KEY: ${{ secrets.NCOMPASS_API_KEY }}
   - uses: ncompass/google-gemma-3-27b-it
     override:
-    roles:
-      - chat
-      - edit
-      - apply
+      roles:
+        - chat
+        - edit
+        - apply
     with:
       NCOMPASS_API_KEY: ${{ secrets.NCOMPASS_API_KEY }}
   - uses: ncompass/nomic-embed-text-v1-5
